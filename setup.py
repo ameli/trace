@@ -79,7 +79,7 @@ def main(argv):
         description = 'trace',
         long_description = LongDescription,
         long_description_content_type = 'text/x-rst',
-        keywords = """trace""",
+        keywords = """Python""",
         url = 'https://github.com/ameli/trace',
         download_url = 'https://github.com/ameli/trace/archive/master.zip',
         project_urls = {
@@ -88,7 +88,7 @@ def main(argv):
             "Tracker": "https://github.com/ameli/trace/issues",
         },
         platforms = ['Linux','OSX','Windows'],
-        packages = setuptools.find_packages(exclude=("tests","examples",)),
+        packages = setuptools.find_packages(),
         install_requires = Requirements,
         python_requires = '>=2.7',
         setup_requires = ['pytest-runner'],
