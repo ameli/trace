@@ -49,8 +49,8 @@ def ReadFileToRST(Filename):
 def main(argv):
 
     Directory = os.path.dirname(os.path.realpath(__file__))
-    PackageName = "trace"
-    PackageNameForDoc = "trace"
+    PackageName = "trace-engine"
+    PackageNameForDoc = "trace-engine"
 
     # Version
     version_dummy = {}
